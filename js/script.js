@@ -1,12 +1,17 @@
-// document.write("hello thos")
-// window.alert()
-// console.log("hello this is console log o hjh gjh fjm")
-// innerHTML
-// document.getElementById("test").innerHTML = 'hello this is js3452'
-// String
+//  document.write("<h1>hello this is js</h1>")
+// document.write("<h2>hello this is js</h2>")
 
-// hello this is batch 9.00
-// let const var
-var x = "hello this is batch 8.00 welcome<br>"
-document.write(x)
-document.write(x)
+// window.alert("kucbbbbbbbbbb")
+// document.write(hfjhghgk)
+// jhkhkjhkjhkjhk
+// console.log("this is js")
+// innerHTML
+// var z = "hgjhg jhg jh gkjhgk"
+var z = "hgjg jkgh kj"
+document.getElementById('test').innerHTML= z
+// document.getElementById('testtwo').innerHTML="hello this is js2"
+// var x = "<h1>helo batch 9.30</h1>"
+
+// document.write(x)
+var x = "jgtvug jhg jhgjh gkh gkj hlkjg il"
+console.log(x)
