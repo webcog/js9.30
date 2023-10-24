@@ -1,17 +1,27 @@
-//  document.write("<h1>hello this is js</h1>")
-// document.write("<h2>hello this is js</h2>")
+// let const var
+// keywords
+// var x = "hello"
+// x = "hi" allow
+// x = "aoa" allow
+// var x = "jhk" allow
 
-// window.alert("kucbbbbbbbbbb")
-// document.write(hfjhghgk)
-// jhkhkjhkjhkjhk
-// console.log("this is js")
-// innerHTML
-// var z = "hgjhg jhg jh gkjhgk"
-var z = "hgjg jkgh kj"
-document.getElementById('test').innerHTML= z
-// document.getElementById('testtwo').innerHTML="hello this is js2"
-// var x = "<h1>helo batch 9.30</h1>"
+// let x = "hello" 
+// x = "hi" allow
+// let x = "hye" - not allow
 
+// const x = "heelo"
+// x = "hello" no allow
+// const x = "hi"  not allow
 // document.write(x)
-var x = "jgtvug jhg jhgjh gkh gkj hlkjg il"
-console.log(x)
+
+
+// string 
+// var t = window.prompt();
+// var u = window.prompt();
+// var z = t / u
+// var z = typeof(t);
+// document.write(z);
+
+
+var t = window.prompt()
+document.write(t)
