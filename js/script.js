@@ -23,5 +23,16 @@
 // document.write(z);
 
 
-var t = window.prompt()
-document.write(t)
+// var x = 5
+// var y = 10
+// var t = x + y
+// assignment op 
+// var x = 5
+// x = x - 1
+// x -= 10
+var x = 10+6
+// 3 x 3 = 9
+// 2 2 2 2 2 
+// 3 x 3 x 3 x 3 x 3
+// Boolean true and false
+document.write("<h1>"+x+"</h1>")
