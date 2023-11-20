@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="in" placeholder="height">
+    <input type="number" id="on" placeholder="widht">
+    <!-- <textarea id="in" cols="30" rows="10"></textarea> -->
+    <button onclick="abc()">Click</button>
+    <h1 id="ou"></h1>
+    <script>
+        
+            function abc(){
+               let x = document.getElementById('in').value;
+               let y = document.getElementById('on').value;
+               let z = (1/2)* x * y
+               document.getElementById('ou').innerHTML = z
+
+            //    let y = (9/5)*x+32
+            //    document.getElementById('ou').innerHTML = y + "F<sup>.<sup>"
+            //    document.getElementById('ou').innerHTML = x.length
+            //    if(x%2==0){
+            //     document.getElementById('ou').innerHTML = "Even"
+            //    }
+            //    else{
+            //     document.getElementById('ou').innerHTML = "Odd"
+            //    }
+            }
+        
+        //   let x =  document.getElementById('in').value
+        //   document.write(x)
+    </script>
+</body>
+</html>
