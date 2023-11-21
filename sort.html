@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="in">
+    <button onclick="abc()"> Click</button>
+    <h1 id="ou"></h1>
+    <script>
+        function abc(){
+
+        
+        
+        let desiFood = ["biryani","karahi","daal"]
+        let fastFood = ["pizza","burger","pasta"]
+        let chinese = ['microni', 'noodels']
+
+        let dish = document.getElementById('in').value
+
+        if (desiFood.includes(dish)){
+            document.getElementById('ou').innerHTML = "Desi Food"
+        }
+        else if(fastFood.includes(dish)){
+            document.getElementById('ou').innerHTML = "Fast Food"
+        }
+        else if(chinese.includes(dish)){
+            document.getElementById('ou').innerHTML = "Chinese Food"
+        }
+        else{
+            document.getElementById('ou').innerHTML = "Invalid"
+        }
+    }
+    </script>
+
+</body>
+</html>
